@@ -1,0 +1,487 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Throws SPAM Away\n"
+"POT-Creation-Date: 2019-03-14 00:58+0900\n"
+"PO-Revision-Date: 2019-03-14 00:57+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: throws_spam_away.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: hostbyip.php:61
+msgid "特定のホスト情報が見つかりました。"
+msgstr ""
+
+#: hostbyip.php:70
+msgid "このIPアドレスから特定のホスト情報は見つかりませんでした。"
+msgstr ""
+
+#: hostbyip.php:75
+msgid "このIPからの最終投稿日時"
+msgstr ""
+
+#: hostbyip.php:77
+msgid "このIPからスパム投稿対象となったページ"
+msgstr ""
+
+#: hostbyip.php:81
+msgid "スパムフィルター："
+msgstr ""
+
+#: hostbyip.php:81
+msgid "スパム拒否リスト存在IPアドレス"
+msgstr ""
+
+#: hostbyip.php:81
+msgid "未検出"
+msgstr ""
+
+#: hostbyip.php:83
+msgid "最新コメント内容"
+msgstr ""
+
+#: hostbyip.php:93
+msgid "閉じる"
+msgstr ""
+
+#: throws_spam_away.class.php:787
+msgid "Throws SPAM Away 設定"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: throws_spam_away.class.php:787
+msgid "Throws SPAM Away"
+msgstr ""
+
+#: throws_spam_away.class.php:795
+msgid "スパムデータ"
+msgstr ""
+
+#: throws_spam_away.class.php:800
+msgid "スパムコメント一括削除"
+msgstr ""
+
+#: throws_spam_away.class.php:1091 throws_spam_away.class.php:1122
+#: throws_spam_away.class.php:1195 throws_spam_away.class.php:1303
+#: throws_spam_away.class.php:1316 throws_spam_away.class.php:1391
+msgid "▲ 上へ"
+msgstr ""
+
+#: throws_spam_away.class.php:1283
+msgid ""
+"※ここに登録したIPアドレスはスパムフィルタを掛けず優先的に通します。<br/>※日本"
+"語以外の言語でご利用になられるお客様のIPアドレスを登録するなどご利用くださ"
+"い。<br/>改行区切りで複数設定できます。範囲指定も可能です。（半角数字とスラッ"
+"シュ、ドットのみ）"
+msgstr ""
+
+#: throws_spam_away.class.php:1294
+msgid ""
+"許可リストに登録したIPアドレス以外からの投稿を無視する（許可リストへ"
+"の登録がない場合は有効になりません）"
+msgstr ""
+
+#: throws_spam_away.class.php:1296
+msgid "（初期設定："
+msgstr ""
+
+#: throws_spam_away.class.php:1296 throws_spam_away.class.php:1333
+#: throws_spam_away.class.php:1367
+msgid "しない"
+msgstr ""
+
+#: throws_spam_away.class.php:1296 throws_spam_away.class.php:1333
+#: throws_spam_away.class.php:1367
+msgid "する"
+msgstr ""
+
+#: throws_spam_away.class.php:1296
+msgid "）"
+msgstr ""
+
+#: throws_spam_away.class.php:1298
+msgid ""
+"※許可リストで登録したIP以外の投稿は無視されますのでこの設定は慎重に行って"
+"ください。（すべての設定より優先します）<br/>※エラーメッセージは「ブロック対"
+"象のIPアドレスからの投稿時に表示される文言」が使われます。（エラー表示時の"
+"み）"
+msgstr ""
+
+#: throws_spam_away.class.php:1305
+msgid ""
+"メモ（スパム対策情報や IPアドレス・NGワードその他メモ備忘録としてご自由にお使"
+"い下さい）"
+msgstr ""
+
+#: throws_spam_away.class.php:1306
+msgid "この欄の内容が表示されることはありません。"
+msgstr ""
+
+#: throws_spam_away.class.php:1318
+msgid "スパムデータベース"
+msgstr ""
+
+#: throws_spam_away.class.php:1321
+msgid "スパムコメント投稿情報を保存しますか？"
+msgstr ""
+
+#: throws_spam_away.class.php:1329
+msgid "スパムコメント情報を保存する"
+msgstr ""
+
+#: throws_spam_away.class.php:1331
+#, php-format
+msgid ""
+"※Throws SPAM Away設定画面表示時に時間がかかることがあります。<br/>※「保存す"
+"る」を解除した場合でもテーブルは残りますので%d日以内の取得データは表示されま"
+"す。"
+msgstr ""
+
+#: throws_spam_away.class.php:1333 throws_spam_away.class.php:1387
+#, php-format
+msgid "（初期設定：%s）"
+msgstr ""
+
+#: throws_spam_away.class.php:1337
+msgid "スパムデータを表示する期間"
+msgstr ""
+
+#: throws_spam_away.class.php:1341
+#, php-format
+msgid "日分（最低%d日）"
+msgstr ""
+
+#: throws_spam_away.class.php:1341
+#, php-format
+msgid "（初期設定： %d）"
+msgstr ""
+
+#: throws_spam_away.class.php:1350
+msgid "期間が過ぎたデータを削除する"
+msgstr ""
+
+#: throws_spam_away.class.php:1352
+#, php-format
+msgid ""
+"※一度消したデータは復活出来ませんのでご注意ください。また最低%d日分は保存され"
+"ます。"
+msgstr ""
+
+#: throws_spam_away.class.php:1356
+msgid ""
+"一定時間内スパム認定機能<br/>○分以内に○回スパムとなったら○分間、当該IPからの"
+"コメントはスパム扱いする設定<br/><b>※一定時間以内にスパム投稿された回数を測定"
+"していますので「スパムコメント情報を保存する」機能がオフの場合は機能しませ"
+"ん。</b>"
+msgstr ""
+
+#: throws_spam_away.class.php:1359
+msgid "機能設定"
+msgstr ""
+
+#: throws_spam_away.class.php:1366
+msgid "機能させる"
+msgstr ""
+
+#: throws_spam_away.class.php:1367
+#, php-format
+msgid "（初期設定： %s）"
+msgstr ""
+
+#: throws_spam_away.class.php:1369 throws_spam_away.class.php:1375
+msgid "一定時間:"
+msgstr ""
+
+#: throws_spam_away.class.php:1371
+msgid "分以内に"
+msgstr ""
+
+#: throws_spam_away.class.php:1372
+msgid "一定回数:"
+msgstr ""
+
+#: throws_spam_away.class.php:1373
+msgid "回スパムとなったら"
+msgstr ""
+
+#: throws_spam_away.class.php:1374
+msgid "<b>次から</b>"
+msgstr ""
+
+#: throws_spam_away.class.php:1377
+msgid "分間"
+msgstr ""
+
+#: throws_spam_away.class.php:1380
+#, php-format
+msgid ""
+"（初期設定：一定時間「%d」分以内に一定回数「%d」回スパムとなったら次から"
+"「%d」分間）<br/>当該IPアドレスからのコメントを強制スパム扱いします。"
+msgstr ""
+
+#: throws_spam_away.class.php:1383
+msgid "エラーメッセージは："
+msgstr ""
+
+#: throws_spam_away.class.php:1401
+msgid "Save Changes"
+msgstr ""
+
+#: throws_spam_away.class.php:1528
+#, php-format
+msgid "スパムデータから %s のデータを削除しました。"
+msgstr ""
+
+#: throws_spam_away.class.php:1540
+#, php-format
+msgid "%s はすでに設定されています。"
+msgstr ""
+
+#: throws_spam_away.class.php:1549
+#, php-format
+msgid "%s を追加設定しました。"
+msgstr ""
+
+#: throws_spam_away.class.php:1558
+msgid "スパムデータをすべて削除しました。"
+msgstr ""
+
+#: throws_spam_away.class.php:1561
+msgid ""
+"スパムデータテーブルへ削除処理を実行しましたが、エラーが発生し処理が完了しま"
+"せんでした。"
+msgstr ""
+
+#: throws_spam_away.class.php:1578
+msgid "Throws SPAM Away スパムデータ"
+msgstr ""
+
+#: throws_spam_away.class.php:1579
+#, php-format
+msgid "スパム投稿%d日間の推移"
+msgstr ""
+
+#: throws_spam_away.class.php:1652
+msgid ""
+"&nbsp;※&nbsp;数値は&lt;上段&gt;がSPAM投稿したユニークIPアドレス数、&nbsp;&lt;"
+"下段&gt;が破棄したスパム投稿数"
+msgstr ""
+
+#: throws_spam_away.class.php:1666
+#, php-format
+msgid "過去%d日間に無視投稿されたIPアドレス"
+msgstr ""
+
+#: throws_spam_away.class.php:1691
+msgid ""
+"をスパムデータベースから削除します。よろしいですか？この操作は取り消せません"
+msgstr ""
+
+#: throws_spam_away.class.php:1700
+msgid "を無視対象に追加します。よろしいですか？削除は設定から行ってください"
+msgstr ""
+
+#: throws_spam_away.class.php:1710
+msgid "投稿内容の判定"
+msgstr ""
+
+#: throws_spam_away.class.php:1711
+msgid ""
+"※最新1件のコメント内容はIPアドレスまたはエラー判定のリンク先を参照してくださ"
+"い。"
+msgstr ""
+
+#: throws_spam_away.class.php:1722
+msgid "IPアドレス"
+msgstr ""
+
+#: throws_spam_away.class.php:1723
+msgid "投稿数"
+msgstr ""
+
+#: throws_spam_away.class.php:1724
+msgid "最終投稿日時"
+msgstr ""
+
+#: throws_spam_away.class.php:1725
+msgid "スパムIP登録"
+msgstr ""
+
+#: throws_spam_away.class.php:1726
+msgid "エラー判定（最新）"
+msgstr ""
+
+#: throws_spam_away.class.php:1743
+msgid "日本語以外"
+msgstr ""
+
+#: throws_spam_away.class.php:1746
+msgid "必須キーワード無し"
+msgstr ""
+
+#: throws_spam_away.class.php:1749
+msgid "NGキーワード混入"
+msgstr ""
+
+#: throws_spam_away.class.php:1752
+msgid "ブロック対象IPアドレス"
+msgstr ""
+
+#: throws_spam_away.class.php:1755
+msgid "スパム拒否リスト"
+msgstr ""
+
+#: throws_spam_away.class.php:1758
+msgid "トラックバックスパム"
+msgstr ""
+
+#: throws_spam_away.class.php:1761
+msgid "URL文字列混入数オーバー"
+msgstr ""
+
+#: throws_spam_away.class.php:1764
+msgid "一定時間スパム判定エラー"
+msgstr ""
+
+#: throws_spam_away.class.php:1767
+msgid "ダミー項目エラー"
+msgstr ""
+
+#: throws_spam_away.class.php:1770
+msgid "許可リスト許可IP以外"
+msgstr ""
+
+#: throws_spam_away.class.php:1781
+msgid "スパムデータから削除する"
+msgstr ""
+
+#: throws_spam_away.class.php:1789
+msgid "ブロック対象IPアドレス追加"
+msgstr ""
+
+#: throws_spam_away.class.php:1809
+msgid ""
+"スパムデータベースを使用するにはThrows SPAM Awayのメニュー「設定」から<br/"
+">「スパムコメント投稿情報を保存しますか？」項目を<strong>「スパムコメント情報"
+"を保存する」</strong>に設定してください"
+msgstr ""
+
+#: throws_spam_away.class.php:1825
+msgid "すべてのスパムデータが削除されます。よろしいですか？"
+msgstr ""
+
+#: throws_spam_away.class.php:1826
+msgid "すべてのデータを削除する"
+msgstr ""
+
+#: throws_spam_away.php:64
+msgid "日本語が含まれない投稿は無視されますのでご注意ください。（スパム対策）"
+msgstr ""
+
+#: throws_spam_away.php:70
+msgid "日本語を規定文字数以上含まない記事は投稿できませんよ。"
+msgstr ""
+
+#: throws_spam_away.php:85
+msgid "NGキーワードが含まれているため投稿できません。"
+msgstr ""
+
+#: throws_spam_away.php:88
+msgid "必須キーワードが含まれていないため投稿できません。"
+msgstr ""
+
+#: throws_spam_away_comments.php:24
+msgid "You have no comment spam."
+msgstr ""
+
+#: throws_spam_away_comments.php:28
+msgid "Spam comments have been deleted."
+msgstr ""
+
+#: throws_spam_away_comments.php:30 throws_spam_away_comments.php:38
+#: throws_spam_away_comments.php:67
+msgid "Something Went Wrong,Please Try Again!"
+msgstr ""
+
+#: throws_spam_away_comments.php:36 throws_spam_away_comments.php:59
+msgid "All comments have been deleted."
+msgstr ""
+
+#: throws_spam_away_comments.php:43
+msgid "Number of all Comments"
+msgstr ""
+
+#: throws_spam_away_comments.php:44
+msgid "Number of Spam Comments"
+msgstr ""
+
+#: throws_spam_away_comments.php:50
+msgid "Delete all spam comments"
+msgstr ""
+
+#: throws_spam_away_comments.php:51
+msgid "Delete all comments"
+msgstr ""
+
+#: throws_spam_away_comments.php:54
+msgid "Delete all Comments"
+msgstr ""
+
+#: throws_spam_away_comments.php:54
+msgid "I will send. Is it OK?"
+msgstr ""
+
+#: throws_spam_away_comments.php:65
+msgid "All Pending comments have been deleted."
+msgstr ""
+
+#: throws_spam_away_comments.php:71
+msgid "Number of Pending Comments"
+msgstr ""
+
+#: throws_spam_away_comments.php:77
+msgid "Delete all pending comments"
+msgstr ""
+
+#: throws_spam_away_comments.php:79
+msgid "Delete all pending Comments"
+msgstr ""
+
+#: throws_spam_away_comments.php:84
+msgid "All pending comments have been deleted."
+msgstr ""
+
+#: throws_spam_away_comments.php:88
+msgid "Warning : Once Comment Deleted can't be restored!"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://gti.co.jp/throws-spam-away/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"コメント内に日本語の記述が存在しない場合はあたかも受け付けたように振る舞いな"
+"がらも捨ててしまうプラグイン"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "株式会社ジーティーアイ　さとう　たけし"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://gti.co.jp/"
+msgstr ""
